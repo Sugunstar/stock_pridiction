@@ -1,0 +1,31 @@
+tickers:
+  - AAPL
+  - MSFT
+  - GOOGL
+  - AMZN
+  - META
+  - TSLA
+  - NVDA
+  - JPM
+  - V
+  - JNJ
+  - WMT
+  - PG
+  - MA
+  - HD
+  - CVX
+  - LLY
+  - BAC
+  - ABBV
+  - PFE
+  - KO
+date_range:
+  start: "2015-01-01"
+  end: "2024-01-01"
+candle_interval: "1d"
+labeling:
+  window_size: 20
+model:
+  cnn_architecture: "resnet18"
+  image_size: 224
+  outcome_horizons: [1, 3, 5]
